@@ -1,0 +1,17 @@
+package org.example.entities;
+
+import java.sql.Time;
+import java.util.List;
+import java.util.Map;
+
+public class Train {
+    private String trainID;
+
+    private String trainNumber;
+
+    private List<List<Integer>> Seats;
+
+    private Map<String, Time> stationTimes;
+
+    private List<String> stations;
+}
