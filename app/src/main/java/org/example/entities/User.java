@@ -11,7 +11,7 @@ public class User {
 
     private List<Ticket> ticketsBooked;
 
-    private String userID;
+    private String userId;
 
 
 }

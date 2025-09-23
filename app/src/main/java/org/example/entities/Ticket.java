@@ -3,15 +3,15 @@ package org.example.entities;
 import java.util.Date;
 
 public class Ticket {
-    private String ticketID;
+    private String ticketId;
 
-    private String userID;
+    private String userId;
 
     private String source;
 
     private String destination;
 
-    private Date dateofTavel;
+    private Date dateOfTravel;
 
     private Train train;
 }
